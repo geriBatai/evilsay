@@ -7,7 +7,7 @@ Performs `/usr/bin/say` on another computer.
 On victim's computer, place `evilsayd` binary into path. Create a configuration file `$HOME/.config/evilsay.yaml` and configure message queue to listen for messages. For example, for locally running RabbitMQ server:
 
 ```
-queue_url: http://localhost:15672
+amqp_url: http://localhost:15672
 ```
 
 Start `evilsayd`.
