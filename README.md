@@ -24,5 +24,5 @@ $ evilsay "I'm a barbie girl, in a barbie world. Life in plastic is fantastic."
 `evilsay` also supports custom voices, the same ones that `/usr/bin/say` supports:
 
 ```
-$ evilsay -v Yuri "Give me your money"
+$ evilsay -v Yuri Give me your money
 ```
